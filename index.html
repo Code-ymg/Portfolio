@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashrajsinh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS file -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(43, 43, 65);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(43, 43, 98);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(194, 206, 24);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .leftsection .button {
+            padding: 46px 0;
+        }
+
+        .leftsection .btn {
+            padding: 8px;
+            background: rgb(43, 43, 98);
+            color: white;
+            border: 2px solid rgb(156, 163, 175);
+            border-radius: 35px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftsection .btn:hover{
+            background-color: rgb(156, 163, 175);
+            font-size: 18px;
+            color: #FFFF00;
+        }
+
+        .rightsection img {
+            width: 110%;
+            height: auto;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.5px;
+            margin: 39px 55px;
+        }
+
+        #element {
+            color: #FFFF00;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .purple {
+            color: #FFFF00;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 73vw;
+            height: 2px;
+            margin: 75px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 114px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 55px;
+            top: -61px;
+            position: relative;
+            left: -28px;
+        }
+
+        .vertical-title {
+            position: relative;
+            left: -73px;
+            text-align: center;
+            top: 53px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            left: -106px;
+            text-align: justify;
+            top: 56px;
+            color: gray;
+            width: 223px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: rgb(23 22 42);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Yashrajsinh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Yashrajsinh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray"> What I have done so far </span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020 - 2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quia maxime deleniti excepturi
+                        inventore sequi libero. Provident similique impedit est quas exercitationem
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="inst.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020 - 2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quia maxime deleniti excepturi
+                        inventore sequi libero. Provident similique impedit est quas exercitationem
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="whats.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020 - 2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quia maxime deleniti excepturi
+                        inventore sequi libero. Provident similique impedit est quas exercitationem
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tele.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020 - 2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quia maxime deleniti excepturi
+                        inventore sequi libero. Provident similique impedit est quas exercitationem
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Yashrajsinh's Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerfourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 www.yashrajsinhsportfolio.in || All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor.', 'Animator.', 'Web Designer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
